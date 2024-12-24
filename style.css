@@ -1,0 +1,69 @@
+body {
+    background-image:url(background.jpg);
+    background-position:top;
+    background-size:200px;
+    background-repeat:tiled;
+    font-family: "Frank Ruhl Libre", serif;
+    color:white;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+h1 {
+    text-align: center;
+}
+h2 {
+    color: #4f7b7c;
+}
+
+h3{
+    color: #6cbfad;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+#center {
+    text-align: center;
+}
+
+#header {
+    background-color: #f9264f;
+    color: white;
+    padding: 10px;
+    margin: bottom 200px; 
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#footer {
+    background-color: #f9264f;
+    color: white;
+    padding: 10px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+div {
+    color:black;
+    margin-top:10px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:50px;
+    background-color:rgba(255, 255, 255, 0.8);
+    padding:20px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: #f9264f;
+    border-image: linear-gradient(45deg, #f9264f 25%, white 25%, white 50%, #f9264f 50%, #f9264f 75%, white 75%, white 100%) 5;
+}
